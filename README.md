@@ -12,6 +12,11 @@ Distributed representations of documents tend to cluster similar texts along cer
 
 3. Arc length is the measure of distance between two points on a sphere. On a unit sphere, arc length between two points is equal to the angle between them. Hence, the algorithm uses Sum of Squared Angles (in Degrees) to compute BIC instead of Sum of Squared Errors.
 
+4. The algorithm takes a depth first approach to cluster data. Leaf nodes are formed when 
+
+	- the model with K = 1 is selected or
+	- the number of data points to be clustered on are less than "maxClusters"
+
 ## Usage
 
 ```
