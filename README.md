@@ -1,4 +1,4 @@
-#Spherical X-Means
+# Spherical X-Means
 
 This is a POC of a Spherical version of XMeans outlined in ["Extending K-means with Effecient Estimation of Number of Clusters"](https://www.cs.cmu.edu/~dpelleg/download/xmeans.pdf), Pelleg et al., CMU.
 
@@ -27,7 +27,7 @@ Distributed representations of documents tend to cluster similar texts along cer
 
 A 3D tSNE visualization of clustered document vectors:
 
-![screencast](https://github.com/sagarkurandwad/{repo}/raw/master/path/to/3D_visualization.gif)
+![](https://github.com/sagarkurandwad/Spherical-X-Means/raw/master/GIF/3D_visualization.gif)
 
 
 ### Hits
@@ -37,7 +37,7 @@ Some of the clusters whose themes could be identified clearly were:
 
 | ClusterID |                                                                                                                                                                                                                                               Titles                                                                                                                                                                                                                                               |        Themes        |
 |:---------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------:|
-|     0     |                                                                                                                    India's annual mean temperature rises by 1.2 degree since 1901<p>Menopause is not a pause in your life<p>New disposable patch can help detect sleep apnea<p>How You Can Save More Lives By Eating Beef Instead of Chicken<p>Cycle your way to a healthier you                                                                                                                   |        Health        |
+|     0     |                                                                                                                    India's annual mean temperature rises by 1.2 degree since 1901<br/>Menopause is not a pause in your life<br/>New disposable patch can help detect sleep apnea<br/>How You Can Save More Lives By Eating Beef Instead of Chicken<br/>Cycle your way to a healthier you                                                                                                                   |        Health        |
 |     3     |                                                               Countdown begins for ISRO's GSLV-Mark III rocket launch - ANI News<p>ISRO launches India's heaviest rocket GSLV-Mk III from Sriharikota | Oneindia News<p>ISRO ready to power the Monster Rocket<p>NASA to launch new manned Mars rovers in 2020<p>India's Heaviest Rocket GSLV-MkIII D1 & Heaviest Satellite GSAT-19 Successfully Launched; 4 Reasons It's A Big Deal                                                               |         Space        |
 |     7     |                                                     Apple's iOS 11 Files app pops up on App Store ahead of WWDC<p>New iOS, Siri Speakers & More Expected at Apple's WWDC Tonight<p>Samsung Galaxy S8 'Pirates of the Caribbean' edition goes on sale; priced around Rs 56,700<p>Moto X Play gets Android 7.1.1 Nougat in India; is it soak test or public roll-out?<p>Sony Xperia XA1 Ultra listed on the Sony India website; might launch soon                                                    |     Smart Phones     |
 |     9     | England vs New Zealand, ICC Champions Trophy 2017: Eoin Morgan says England 'completely different' since 2015 World Cup<p>ICC Champions Trophy: Bangladesh Team heckled at Iftar Party in England | Oneindia News<p>India vs Pakistan: Vijay Goel congratulates Indian cricket team<p>Sensors Are Being Used In Bats In The Champions Trophy. Here's Everything You Need To Know About Them<p>ICC Champion trophy: Vijay Mallya spotted with Sunil Gavaskar during Ind VS Pak match |Oneindia News | ICC Champions Trophy |
